@@ -1,4 +1,5 @@
 SUMMARY:
+
 The objective of this task (Assignment of Week 1) was to perform basic data exploration and cleaning using the Pandas library in Python.
 The given combined dataset was loaded into a Pandas DataFrame and explored using functions such as head(), tail(), shape, columns, and dtypes to show and understand its structure. 
 Missing values were identified and handled by filling numerical values with their mean and text values with a placeholder where necessary. 
