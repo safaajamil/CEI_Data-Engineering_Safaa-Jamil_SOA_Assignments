@@ -1,2 +1,4 @@
 SUMMARY:
+
+
 The Superstore dataset was imported into SQL Server and organized into separate customers, products, and orders tables. Customer and product records were grouped by their unique IDs to avoid duplicate primary key values. Subqueries were used to identify orders with above-average sales and each customer's highest-value order. Common Table Expressions (CTEs) were used to calculate total customer sales, while window functions such as ROW_NUMBER() and RANK() were applied to rank sales records and customers. A combination of joins, CTEs, and window functions produced a ranked customer sales report. Business queries identified top-performing customers, lowest-spending customers, single-order customers, and customers whose total sales exceeded the average, demonstrating the effective use of advanced SQL features for sales analysis.
