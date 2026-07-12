@@ -1,1 +1,3 @@
+SUMMARY:
 
+This assignment demonstrates the implementation of an end-to-end data pipeline using Microsoft Azure. A Resource Group, Storage Account, Blob Storage containers, and Azure Data Factory were created. The Superstore CSV dataset was uploaded to Blob Storage and connected to Azure Data Factory using a Linked Service and datasets. A pipeline containing Get Metadata and Copy Data activities was created to validate and copy the dataset from the source container to the destination container. The pipeline executed successfully, metadata validation was completed, and the data was copied successfully, demonstrating an end-to-end Azure Data Factory pipeline.
